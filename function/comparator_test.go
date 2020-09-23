@@ -6,6 +6,7 @@ func TestIntComparator(t *testing.T) {
 	// i1,i2,expected
 	tests := [][]interface{}{
 		{1, 1, 0},
+		{nil, 0, 0},
 	}
 
 	for _, test := range tests {
